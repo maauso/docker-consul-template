@@ -1,11 +1,5 @@
 Consul Template
 ===============
-[![Build Status](http://img.shields.io/travis/hashicorp/consul-template.svg?style=flat-square)][travis]
-[![Go Documentation](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)][godocs]
-
-[travis]: https://travis-ci.org/hashicorp/consul-template
-[godocs]: https://godoc.org/github.com/hashicorp/consul-template
-
 This project provides a convenient way to populate values from [Consul][] into the file system using the `consul-template` daemon.
 
 The daemon `consul-template` queries a [Consul][] instance and updates any number of specified templates on the file system. As an added bonus, `consul-template` can optionally run arbitrary commands when the update process completes. See the [Examples](https://github.com/hashicorp/consul-template/tree/master/examples) folder for some scenarios where this functionality might prove useful.
@@ -1618,4 +1612,3 @@ Submit Pull Requests and Issues to the [Consul Template project on GitHub][Consu
 [Consul ACLs]: https://www.consul.io/docs/internals/acl.html "Consul ACLs"
 [Go Template]: https://golang.org/pkg/text/template/ "Go Template"
 [Consul Template]: https://github.com/hashicorp/consul-template "Consul Template on GitHub"
-
