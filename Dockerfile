@@ -2,7 +2,7 @@ FROM debian:stretch
 MAINTAINER m.auso.p@gmail.com
 
 #Consul options
-ENV CONSUL_TEMPLATE_VERSION=
+ENV CONSUL_TEMPLATE_VERSION=0.16.0
 ENV CONSUL_SERVER=127.0.0.1:8500
 
 # Consul-template install
