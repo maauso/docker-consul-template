@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:jessie
 MAINTAINER m.auso.p@gmail.com
 
 #Consul options
