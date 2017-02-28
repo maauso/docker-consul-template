@@ -1,8 +1,13 @@
 FROM debian:jessie
 MAINTAINER m.auso.p@gmail.com
 
+
+LABEL authors="Miguel Ángel Ausó <m.auso.p@gmail.com>"
+LABEL description="Consul-template using in maauso/haproxy"
+LABEL version="0.18.1"
+
 #Consul options
-ENV CONSUL_TEMPLATE_VERSION=0.16.0
+ENV CONSUL_TEMPLATE_VERSION=0.18.1
 ENV CONSUL_SERVER=127.0.0.1:8500
 
 # Consul-template install
